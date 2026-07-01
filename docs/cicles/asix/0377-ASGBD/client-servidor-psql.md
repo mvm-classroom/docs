@@ -11,39 +11,39 @@
 
     - **Lliurament**: Allotjant tota la documentació necessaria a `Github`, amb un fitxer ben formatat amb markdown i pujant la URL del repositori a la tramesa en Moodle
 
-!!! important "Important"
-Heu d'explicar, **AMB LES VOSTRES PARAULES**, tot el procés d'instal·lació, configuració i proves.
+!!! warning "Important"
+    Heu d'explicar, **AMB LES VOSTRES PARAULES**, tot el procés d'instal·lació, configuració i proves.
 
-Explicar:
+    Explicar:
 
-- Perquè feu cada pas i perquè modifiqueu cada opció o fitxer.
-- De quin recurs heu tret l'informació (lloc oficial, varis tutorials, etc...)
-- Quines proves heu fet i el resultat obtingut
+    - Perquè feu cada pas i perquè modifiqueu cada opció o fitxer.
+    - De quin recurs heu tret l'informació (lloc oficial, varis tutorials, etc...)
+    - Quines proves heu fet i el resultat obtingut
 
-Si les explicacions son copiades de ChatGPT o similar la puntuació de l'exercici serà 0
+    Si les explicacions son copiades de ChatGPT o similar la puntuació de l'exercici serà 0
 
 
 ## Preparació de l'escenari
->[!NOTE]
-> Necessitem crear el següent escenari a IsardVDI:
-> - **Servidor:** Plantilla `MVM - Ubuntu 24.04 Server` amb les opcions de hardware que ja venen de serie.
->  
-> - **Client:** Plantilla `Ubuntu Desktop 22.04`, 2 vCPU, 4GB de RAM. Xarxes: `Default` i `Personal1`
->
-> Podeu fer servir les màquines de l'exercici anterior si voleu estalviar temps
+!!! note "Preparació de l'escenari"
+    Necessitem crear el següent escenari a IsardVDI:
+    - **Servidor:** Plantilla `MVM - Ubuntu 24.04 Server` amb les opcions de hardware que ja venen de serie.
+    
+    - **Client:** Plantilla `Ubuntu Desktop 22.04`, 2 vCPU, 4GB de RAM. Xarxes: `Default` i `Personal1`
 
-> [!warning]
-> Has de canviar el hostname de cada màquina creada. Per exemple, si soc Joseph Joestar i he de posar nom a les màquines servidora i i clients, les anomenaria `jjoestar-server`, `jjoestar-cli1` i `jjoestar-cli2`
-> 
-> Per aconseguir aixó pots fer el següent:
-> 
-> ```
-> sudo hostnamectl set-hostname jjoestar-server
-> ``` 
-> 
-> Durant l'exercici, qualsevol referencia que veieu a `jjoestar` es un exemple i ha de ser canviada per la nomenclatura equivalent al vostre nom.
-> 
-> Si no es segueix aquesta nomenclatura **la puntuació de l’exercici serà un 0**.
+    Podeu fer servir les màquines de l'exercici anterior si voleu estalviar temps
+
+!!! warning "Important"
+    Has de canviar el hostname de cada màquina creada. Per exemple, si soc Joseph Joestar i he de posar nom a les màquines servidora i i clients, les anomenaria `jjoestar-server`, `jjoestar-cli1` i `jjoestar-cli2`
+    
+    Per aconseguir aixó pots fer el següent:
+    
+    ```
+    sudo hostnamectl set-hostname jjoestar-server
+    ``` 
+    
+    Durant l'exercici, qualsevol referencia que veieu a `jjoestar` es un exemple i ha de ser canviada per la nomenclatura equivalent al vostre nom.
+    
+    Si no es segueix aquesta nomenclatura **la puntuació de l’exercici serà un 0**.
 
 
 ## Primera part: Servidor
@@ -94,6 +94,6 @@ Si trobes qualsevol error de connexió, hauràs d’esbrinar la forma de solucio
 ## Cinquena part: preguntes
 Contesta les següents preguntes per a relacionar la pràctica amb la teoria:
 
-### 1. Consideres PostgreSQL com un SGBD centralitzat o bé com un basat en el sistema client/servidor? Argumenta la teva resposta.
+- 1. Consideres PostgreSQL com un SGBD centralitzat o bé com un basat en el sistema client/servidor? Argumenta la teva resposta.
 
-### 2. Si has categoritzat PostgreSQL com un sistema client/servidor, dins quin sistema de capes consideres que encaixa millor: 2 capes o 3 capes? Argumenta la teva resposta. 
+- 2. Si has categoritzat PostgreSQL com un sistema client/servidor, dins quin sistema de capes consideres que encaixa millor: 2 capes o 3 capes? Argumenta la teva resposta. 
