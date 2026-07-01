@@ -93,7 +93,7 @@ nav:
     - ASIX:
       - Guia bàsica GNS3: cicles/asix/howto-gns3.md
       - 0377 - ASGBD:
-        - Sistemes client-servidor amb PostgreSQL: cicles/asix/0377 - ASGBD/client-servidor-psql.md
+        - Sistemes client-servidor amb PostgreSQL: cicles/asix/0377-ASGBD/client-servidor-psql.md
     - DAW: cicles/daw/index.md
 
 extra:

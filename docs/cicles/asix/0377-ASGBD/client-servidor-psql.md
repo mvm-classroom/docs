@@ -2,26 +2,26 @@
 
 ## Descripció
 
->[!NOTE]
->- **Objectiu**: Posar en pràctica els coneixements adquirits sobre les arquitectures dels sistemes gestors de bases de dades i la comunicació entre clients i servidors.
->
->- **Desenvolupament**: Individual
->
->- **Duració**: 3h aproximadament.
->
->- **Lliurament**: Allotjant tota la documentació necessaria a `Github`, amb un fitxer ben formatat amb markdown i pujant la URL del repositori a la tramesa en Moodle
+!!! note "Descripció"
+    - **Objectiu**: Posar en pràctica els coneixements adquirits sobre les arquitectures dels sistemes gestors de bases de dades i la comunicació entre clients i servidors.
 
->[!IMPORTANT]
->Heu d'explicar, **AMB LES VOSTRES PARAULES**, tot el procés d'instal·lació, configuració i proves.
->
->Explicar:
->
->- Perquè feu cada pas i perquè modifiqueu cada opció o fitxer.
->- De quin recurs heu tret l'informació (lloc oficial, varis tutorials, etc...)
->- Quines proves heu fet i el resultat obtingut
->
->Si les explicacions son copiades de ChatGPT o similar la puntuació de l'exercici serà 0
->
+    - **Desenvolupament**: Individual
+
+    - **Duració**: 3h aproximadament.
+
+    - **Lliurament**: Allotjant tota la documentació necessaria a `Github`, amb un fitxer ben formatat amb markdown i pujant la URL del repositori a la tramesa en Moodle
+
+!!! important "Important"
+Heu d'explicar, **AMB LES VOSTRES PARAULES**, tot el procés d'instal·lació, configuració i proves.
+
+Explicar:
+
+- Perquè feu cada pas i perquè modifiqueu cada opció o fitxer.
+- De quin recurs heu tret l'informació (lloc oficial, varis tutorials, etc...)
+- Quines proves heu fet i el resultat obtingut
+
+Si les explicacions son copiades de ChatGPT o similar la puntuació de l'exercici serà 0
+
 
 ## Preparació de l'escenari
 >[!NOTE]
